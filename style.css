@@ -1,0 +1,303 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.grid{
+    display: grid;
+}
+.container{
+    padding-left: 80px;
+    padding-right: 70px;
+}
+.navbar{
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transition-duration: 2s;
+
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlist li{
+    display: inline-block;
+    margin: 18px;
+    font-size: 18px;
+}
+.navlist a{
+    text-decoration: none;
+    color: black;
+}
+.navlist a:hover{
+    color: rgb(130, 130, 222);
+}
+.menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: rgb(2, 4, 15);
+    margin-bottom: 3px;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+}
+@media all and (max-width:740px){
+    nav{
+        flex-direction: column;
+
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .websitelogo{
+        align-self: flex-start;
+        margin: 10px 0 0 20px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top:25px
+    }
+    .showmenu{
+        display: block;
+    }
+}
+.contain{
+    display: flex;
+}
+.textcontain{
+    margin-top: 35px;
+}
+.textcontain h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 70px;
+    color: rgb(10, 13, 34);
+}
+.textcontain p{
+    margin-top: 25px;
+    line-height: 24px;
+    color: grey;
+}
+.getintouch{
+     margin-top: 25px;
+     line-height: 70px;
+}
+.getintouch a{
+    border: 1px solid rgb(2, 4, 14);
+    background-color: rgb(10, 13, 34);
+    padding: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 10px;
+
+}
+.getintouch a:hover{
+    background-color: rgb(130, 130, 222);
+}
+.contain img{
+    height: 580px;
+    width: 580px;
+}
+.contain1{
+    display: flex;
+}
+.contain1 img{
+    width: 584px;
+    height: 480px;
+}
+.para{
+    margin-top: 94px;
+    max-height: auto;
+    max-width: auto;
+}
+.para p{
+    margin-top: 25px;
+    color: grey;
+    line-height: 25px;
+}
+.para h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.para a{
+    line-height: 115px;
+    text-decoration: none;
+    background-color: rgb(10, 13, 34);
+    padding:15px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.para a:hover{
+    background-color: rgb(130, 130, 222) ;
+}
+.jt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contain2{
+    display: grid;
+    text-align: center;
+    background-color:rgb(10, 13, 34) ;
+    color: whitesmoke;
+    height: 1000px;
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+    padding: 20px;
+    margin-top: 70px;
+    
+}
+.head{
+    margin-top: 100px;
+}
+.jt p{
+    margin-top: 20px;
+}
+.course a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.course a:hover{
+    color: rgb(102, 96, 206);
+}
+.course p{
+    color: gray;
+}
+.viewmore{
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: 115px;
+    height: 40px;
+    border-radius: 5px;
+}
+.viewmore:hover{
+    background-color: lightgrey;
+}
+
+.contain3{
+    display: flex;
+}
+.contain3text{
+    margin-top: 110px;
+}
+.contain3text h1{
+    margin-top: 40px;
+}
+.contain3text p{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 942px) {
+  body {
+  display: flex;  
+  flex-wrap: wrap;
+  }
+}
+.contain4{
+    display: flex;
+}
+.contain4text{
+    text-align: center;
+    margin: auto;
+}
+.contain4text p{
+    margin-top: 20px;
+}
+.getintouch1{
+    margin-top: 30px;
+}
+.contain4text a{
+    border: 1px solid rgb(2, 4, 14);
+    background-color: rgb(10, 13, 34);
+    padding: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 10px; 
+}
+.contain4text a:hover{
+    background-color: rgb(77, 46, 143);
+}
+.lhead, .address{
+    display: flex;  
+}
+.lhead{
+    height: 100px;
+    align-items: center
+}
+.getintouch2{
+    padding-left: 300px;
+}
+.getintouch2 a{
+    border: 1px solid rgb(2, 4, 14);
+    background-color: rgb(10, 13, 34);
+    padding: 13px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px; 
+}
+.getintouch2 a:hover{
+    background-color: rgb(156, 156, 156);
+    color: black;
+}
+.lcontain{
+    margin-top: 40px;
+    background-color: rgb(10, 13, 34);
+    color: whitesmoke;
+    height: 580px;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+}
+.lcontain a{
+    text-decoration: none;
+    color: grey;
+    list-style: none;
+}
+.ad1{
+    max-width: 400px;
+}
+.address{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 20px;
+}
+.list{
+    margin-top: 40px;
+}
+.contact4{
+    width: 300px;
+    line-height: 40px;
+}
+.contact{
+    line-height: 30px;
+}
+.insta i{
+    border: 0 solid white;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: 25px;
+    text-align: center;
+}
+.lastlogo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
